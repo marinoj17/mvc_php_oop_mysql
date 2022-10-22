@@ -22,6 +22,7 @@
 	</tr>
 </thead>
 <?php
+var_dump($usuarios);
 	foreach ($usuarios as $usuario) { ?>
 		
 			<tr>
