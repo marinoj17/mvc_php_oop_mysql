@@ -1,5 +1,5 @@
 <?php 
-	 require_once('connection.php');
+	 require_once('mvc_php_oop_mysql/connection.php');
 	// la variable controller guarda el nombre del controlador y action guarda la acción por ejemplo registrar 
 	//si la variable controller y action son pasadas por la url desde layout.php entran en el if
 	if (isset($_GET['controller'])&&isset($_GET['action'])) {
